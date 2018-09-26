@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="keywords" content="snowden,edward,zeroleaks,nsa,tempora,xkeyscore,surveillance,gchq,intercept,equation,leaked">
+<title>黑户档案</title>
+		<meta charset="utf-8">
+ 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ 		<base href="" target="_top" id="base">
+ <script src="w3.js"></script>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+
+<style>
+h1 {
+    font-size: 9vw;
+    text-align: center;
+    font-family: "Arial", Arial, sans-serif;
+    margin-top: 3vw;
+    text-shadow: 6px 5px 5px #DAA520;
+    text-decoration: overline;
+    color: white;
+}
+
+h1 img {
+    display: inline;
+    margin: auto;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:100% 100%;
+}
+
+table {
+    background-color: white;
+		border:3px solid #DAA520;
+		border-radius:4px;
+		font-size: 0.8vw;
+}
+
+</style>
+</head>
+<body>
+
+<h1>黑户<img src="img/logo.png" width="225" height="225">档案</h1><br>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <input style="font-weight: bold;color: #d94f20;border:3px solid #DAA520;border-radius:4px;font-size:2vw;height:4vw;" oninput="w3.filterHTML('#table', '.item', this.value)" class="form-control" placeholder="搜一下 . .">
+        </div>
+    </div>
+<!-- <center><a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=dUJETEdHR0VHRzUEBFsWGhg" style="text-decoration:none;">曝料 邮箱</a></center>
+<audio controls>
+	<source src="http://gss0.bdstatic.com/y0s1hSulBw92lNKgpU_Z2jR7b2w6buu/data2/music/6288aa833f619f2155699ccd8673bf8a/594553803/5515604711537653661128.mp3?xcode=623e9188c9619596aca186416cbdae39" type="audio/mpeg">
+</audio> -->
+<!-- 加 -->
+<hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table" id="table">
+                <thead>
+                    <tr>
+                        <th>时间</th>
+                        <th>姓/名</th>
+                        <th>支付宝帐号</th>
+                        <th>微信帐号</th>
+                        <th>旺旺帐号</th>
+                        <th>手机</th>
+                        <th>性别</th>
+                        <th>其他帐号</th>
+                        <th>相关截图</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="item">
+                                                <td>2018/05/22</td><td>张三</td><td>12345678912@xx.com </td><td>123456789456789123</td><td>123456789123456</td><td>12345678912 12345678912</td><td>男</td><td>The Intercept</td>
+												<td><a href="g/indexD.html" target="_blank">文本</a></td>
+                    </tr>
+                    <tr class="item">
+                                                <td>2018/05/22</td><td>张三</td><td>12345678912@xx.com </td><td>123456789456789123</td><td>123456789123456</td><td>12345678912 12345678912</td><td>男</td><td>The Intercept</td>
+												<td><a href="data/0001.html" target="_blank">文本</a></td>
+                    </tr>
+                    <tr class="item">
+                                                <td>2018/05/22</td><td>张三</td><td>12345678912@xx.com </td><td>123456789456789123</td><td>123456789123456</td><td>12345678912 12345678912</td><td>男</td><td>The Intercept</td>
+												<td><a href="data/0001.html" target="_blank">文本</a></td>
+                    </tr>
+                    <tr class="item">
+                                                <td>2018/05/22</td><td>张三</td><td>12345678912@xx.com </td><td>123456789456789123</td><td>123456789123456</td><td>12345678912 12345678912</td><td>男</td><td>The Intercept</td>
+												<td><a href="data/0001.html" target="_blank">文本</a></td>
+                    </tr>
+                    <tr class="item">
+                                                <td>2018/05/22</td><td>张三</td><td>12345678912@xx.com </td><td>123456789456789123</td><td>123456789123456</td><td>12345678912 12345678912</td><td>男</td><td>The Intercept</td>
+												<td><a href="data/0001.html" target="_blank">文本</a></td>
+                    </tr>
+                    <tr class="item">
+                                                <td>2018/05/22</td><td>张三</td><td>12345678912@xx.com </td><td>123456789456789123</td><td>123456789123456</td><td>12345678912 12345678912</td><td>男</td><td>The Intercept</td>
+												<td><a href="data/0001.html" target="_blank">文本</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+        </div>
+    </div>
+</body>
+</html>
