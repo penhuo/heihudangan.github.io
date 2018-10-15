@@ -100,6 +100,34 @@ table {
 		font-size: 0.8vw;
 }
 </style>
+<script src="js/jquery.js"></script><style>
+p#top{ position:fixed;display:none;bottom:100px;right:45px;}  
+p#top a{text-align:center;text-decoration:none;color:#d1d1d1;display:block;width:64px;transition:color 1s;}  
+p#top a:hover{ color:#979797;  }  
+p#top a span{background:url(img/top.png) no-repeat center;border-radius:6px;display:block;height:64px;transition:background 1s;}  
+#top a:hover span{background:url(img/top.png) no-repeat center;} 
+</style>
+<script>
+$(document).ready(function(e) {
+		//当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失  
+        $(function () {  
+            $(window).scroll(function(){  
+                if ($(window).scrollTop()>100){ //大于100行才出现跳转箭头 
+                    $("#top").fadeIn(1500);  //大于1500行时跳转箭头慢慢透明显示
+                }  
+                else  
+                {  
+                    $("#top").fadeOut(1500);  //大于1500行时跳转箭头慢慢透明消失
+                }  
+            });   
+            //当点击跳转链接后，回到页面顶部位置  
+            $("#top").click(function(){  
+                $('body,html').animate({scrollTop:0},1000);//1s完成回到顶部  
+                return false;  
+            });  
+        });  
+});
+</script>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -217,5 +245,12 @@ table {
                 </div>
             </div></center>
 <br>
+<div style="width: 100%;height: 100px;"></div>
+<p id="top">
+	<a href="#top">
+		<span></span>
+		返回顶部
+	</a>
+</p>  
 </body>
 </html>
